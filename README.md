@@ -7,6 +7,12 @@ LiDAR-camera fusion for point cloud semantic segmentation is essential for accur
 # Preview
 The relevant codes will be available here after paper publication.
 
+# Highlights
+    (1) We comprehensively analyze the characteristics and challenges of point-pixel fusion, offline fusion, and online-fusion mode predominantly employed in current LiDAR-camera fusion methods for the first time. Besides, we notice the research gap regarding the corruption robustness of LiDAR-camera fusion methods for 3D semantic segmentation.
+
+    (2) We rethink the task of LiDAR-camera fusion for 3D semantic segmentation to solve the existing challenges. We develop point-patch fusion mode and propose PatchFusion framework based on this conception as a promising solution to systematically address the challenges posed by current fusion-based methods, aiming to enhance performance and resilience of LiDAR-camera fusion perception in realistic and complex driving scenes.
+
+    (3) To simulate complex evaluation conditions, we design a corruption suite of multimodal dataset specialized for 3D semantic segmentation for the first time. Extensive experiments on well-known multimodal datasets demonstrate that PatchFusion can effectively improve the performance and resilience of LiDAR-camera fusion on both clean and corrupted datasets.
 
 
 # Demo
